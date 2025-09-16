@@ -8,6 +8,7 @@ public class Cat extends Animal {
 	public Cat(String name, int age, boolean isIndoor) {
 		super(name, age);
 		this.isIndoor = isIndoor;
+		System.out.println("Cat 생성자 호출");
 	}
 
 	@Override

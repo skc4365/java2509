@@ -11,6 +11,14 @@ public class Animal {
 		System.out.println("Animal 생성자 호출");
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public void eat() {
 		System.out.println(name + "이(가) 먹이를 먹고 있습니다.");
 	}
