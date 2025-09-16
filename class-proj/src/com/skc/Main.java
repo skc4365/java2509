@@ -2,6 +2,7 @@ package com.skc;
 
 import com.skc.abst.AbstractMain;
 import com.skc.ext.ExtendsMain;
+import com.skc.inter.InterfaceMain;
 import com.skc.poly.PolymorphismMain;
 
 public class Main {
@@ -15,7 +16,10 @@ public class Main {
 //		PolymorphismMain polymorphismMain = new PolymorphismMain();
 
 //		추상클래스 abstract
-		AbstractMain abstractMain = new AbstractMain();
+//		AbstractMain abstractMain = new AbstractMain();
+
+//		인터페이스 Interface
+		InterfaceMain interfaceMain = new InterfaceMain();
 	}
 
 }
